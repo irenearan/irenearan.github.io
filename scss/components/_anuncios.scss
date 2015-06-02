@@ -1,0 +1,412 @@
+/*anuncios*/
+.todos-anuncios {
+    float:right;
+    margin: 10px 0 40px 0;
+    width: 83%;
+
+    li{
+        list-style: none;
+        text-align: center;
+    }
+}
+
+.anuncio {
+    background-color: white;
+    margin-bottom: 20%;
+    position: relative;
+
+      &:hover{
+        .hover-container{
+            display: block;
+            cursor: pointer;
+        }
+    }
+}
+
+.content-container, .content-container-cursos{
+    padding: 10px 20px 0;
+}
+
+.texto-cuadrado {
+    padding-bottom: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.texto-cuadrado-cursos{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.mas-info{
+    padding-bottom: 60px;
+    width: 100%;
+}
+
+.anuncio-destacado{
+    background-color: #1BA8A6;
+    height: 340px;
+}
+
+.texto-cuadrado-destacado{
+    padding: 35px 20px;
+}
+
+.row{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.mas-info-destacado{
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+.foto{
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 36%;
+}
+
+.foto-alumno {
+    width: 100%;
+}
+
+.texto-cuadrado-large {
+    padding: 70px 20px 78px;
+    text-align: center;
+}
+
+.texto-cuadrado-small{
+    text-align: center;
+    padding: 20px 20px 0;
+}
+
+.image-container{
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 77%;
+    position: relative;
+    width: 100%;
+}
+
+.img-curso{
+    position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    margin: auto;
+    width: 100%;
+}
+
+.texto-curso{
+    background-color: white;
+    position: absolute;
+        right: 0;
+        top: 0;
+    z-index: 0;
+}
+
+.hover-container{
+    background-color: white;
+    display: none;
+    margin: auto;
+    padding: 0 15px;
+    position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+    z-index: 1;
+}
+
+.hover-container p{
+    font-size: 14px;
+}
+
+/*buscador*/
+.titular-seccion-buscador{
+    float: right;
+    margin-bottom: 10px;
+    padding: 15px;
+    position: relative;
+    width: 100%;
+}
+
+.especial{
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.container-anuncios-buscador{
+    background-color: white;
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+
+.imagen-anuncios-creativos{
+    width: 90%;
+    margin: 0 0 10px 5px;
+}
+
+.container-dudas-cursos{
+    margin-top: 5px;
+    width: 100%;
+}
+
+.container-cantidad{
+    float: left;
+    margin: 10px 10px 0 0;
+    width: 100%;
+}
+
+.total-icono-buscador{
+    float: left;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.padding-boton{
+    padding: 30px;
+}
+
+.menu-scroll li{
+    float: left;
+    list-style: none;
+    margin: 15px;
+    text-transform: uppercase;
+}
+
+.back-to-top{
+    position:absolute;
+    z-index: 1;
+}
+
+/*anuncio ampliado*/
+.parte-izquierda-info {
+    width: 60%;
+    float: left;
+}
+
+.imagen-curso {
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+.margin-top-ampliado{
+    margin: 30px 0 0 5px;
+}
+
+/*media queries buscador*/
+@media all {
+    .container-imagen-button{
+        display: none;
+    }
+    .textos-anuncios-buscador{
+        width: 100%;
+    }
+    .container-anuncios-buscador{
+        padding: 30px;
+    }
+    .button-mail-responsive{
+        display: block;
+    }
+    .menu-scroll li{
+        float: left;
+        list-style: none;
+        margin: 15px;
+        text-transform: uppercase;
+    }
+    .container-ordenar-2{
+        float:none;
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 500px){
+   .texto-anuncios-buscador{
+        float: right;
+        margin: 25px 0 0 5px;
+        width: 65%;
+    }
+    .container-imagen-button{
+        float: left;
+        margin: 15px;
+        width: 25%;
+        display: block;
+    }
+    .texto-anuncios-buscador{
+        float: right;
+        margin: 25px 0 0 5px;
+        width: 65%;
+    }
+    .container-anuncios-buscador{
+        padding: 5px;
+    }
+    .texto-anuncios-buscador{
+        float: right;
+        margin: 25px 0 0 5px;
+        width: 65%;
+    }
+    .container-imagen-button{
+        float: left;
+        width: 25%;
+        margin: 15px;
+        display: block;
+    }
+    .container-anuncios-buscador{
+        padding: 5px;
+    }
+    .button-mail-responsive{
+        display: none;
+    }
+
+    .container-ordenar-2{
+        margin: 0 auto;
+        width: 60%;
+    }
+    .background-pagina-show{
+        z-index: 1;
+    }
+}
+
+@media all and (min-width: 1024px){
+    .texto-anuncios-buscador{
+        float: right;
+        margin: 25px 0 0 5px;
+        width: 65%;
+    }
+    .container-imagen-button{
+        float: left;
+        width: 25%;
+        margin: 15px;
+        display: block;
+    }
+    .container-anuncios-buscador{
+        padding: 5px;
+    }
+    .button-mail-responsive{
+        display: none;
+    }
+    .container-ordenar-2{
+        width: 33%;
+        margin: 0 auto;
+    }
+    .background-pagina-show{
+        z-index: 1;
+    }
+}
+/*media queries anuncios*/
+@media screen and (max-width: 1117px){
+    .cabecera-cursos{
+        margin: 0 auto;
+        padding-top:60px;
+        width: 90%;
+    }
+    .cabecera-alumnos{
+        padding-top: 60px;
+        margin: 0 auto;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1118px) {
+    .cabecera-cursos{
+        padding-top: 60px;
+        width: 70%;
+    }
+    .cabecera-alumnos{
+        padding-top: 60px;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 966px){
+    .filtros {
+        display: none;
+    }
+
+    .todos-anuncios{
+        float: none;
+        width: 100%;
+    }
+    .row ul{
+        width: 100%;
+    }
+    .filtros-hide-tablet {
+        display: block;
+    }
+    .anuncio:hover{
+        .hover-container{
+            display: none;
+        }
+    }
+}
+
+@media screen and (min-width: 967px){
+    .filtros-hide-tablet {
+        display: none;
+    }
+    .container-button-title{
+        float: right;
+    }
+}
+
+@media screen and (max-width: 865px){
+    .cabecera-cursos{
+        width: 100%;
+    }
+    .cabecera-alumnos{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .muneco-busqueda,
+    .hide-sub,
+    .container-ordenar{
+        display: none;
+    }
+    .ordenar-title{
+        display: block;
+    }
+
+    .container-button-title{
+        float: none;
+        margin: 0 0 20px 20px;
+    }
+     .title-margin{
+        margin-left: 20px;
+    }
+    .cabecera-cursos,
+    .cabecera-alumnos{
+        padding-top: 0;
+    }
+}
+
+@media screen and (min-width: 801px){
+    .ordenar-title {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 641px){
+    .image-container,
+    .img-curso,
+    .foto,
+    .foto-alumno{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 470px){
+    .lista-categorias ul,
+    .grupo-iconos{
+        width: 100%;
+    }
+    .ordenar-title{
+        display: none;
+    }
+}
+

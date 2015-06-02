@@ -1,0 +1,113 @@
+/*general*/
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+body {
+     color: #404041;
+     font-family: "Lato", sans-serif;
+     font-style: normal;
+     font-weight: 400;
+	 margin: 0;
+}
+
+.background-4 {
+    background-color: rgba(51, 51, 51, .15);
+    width: 100%;
+    padding-left: 10px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.margin-left{
+    margin-left: 10px;
+}
+
+.margin-right{
+    margin-right: 5px;
+}
+
+.clear{
+    clear: both;
+}
+
+.no-margin{
+    margin: 0;
+}
+
+.padding-top {
+    padding-top: 50px;
+}
+
+.margin-top{
+    margin-top: 5px;
+}
+
+.padding-bottom {
+    padding-bottom: 10px;
+}
+
+.linia{
+    border: 0;
+    border-top: 1px solid #999;
+}
+
+.in-line{
+    display: inline-block;
+}
+
+.opacity-hover:hover{
+    opacity: .6;
+    transition: all 0.1s ease;
+    cursor: pointer;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.imagen-redondo{
+    border-radius: 50%;
+    border: 1px solid rgba(51, 51, 51, 0.15);
+}
+
+.espacio-inferior-ampliado {
+    padding-bottom: 40px;
+}
+
+.imagen-perfil-aampliado {
+    max-width: 40%;
+}
+
+.margin-auto{
+    margin: 0 auto;
+}
+
+.background-pagina-hide{
+    margin: 20px;
+}

@@ -26,7 +26,13 @@ p {
      font-weight: 600;
      margin: 0;
 }
-
+.copyright{
+    color: #00A6A5;
+    font-size: 0.625rem;
+    margin: 0;
+    padding:10px;
+    text-align: center;
+}
 
 
 
@@ -148,19 +154,6 @@ p {
     font-size: 0.75rem;
     font-style: italic;
     font-weight: lighter;
-}
-
-.terms{
-    font-size: 0.75rem;
-    clear: both;
-}
-
-.copyright{
-    color: white;
-    font-size: 0.625rem;
-    margin: 0;
-    padding:10px;
-    text-align: center;
 }
 
 .nofloat{

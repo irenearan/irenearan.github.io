@@ -1,154 +1,40 @@
-/*aside ampliado*/
-.parte-derecha-info {
-    background-color: white;
-    float: left;
-    margin-left: 30px;
-    padding: 10px 30px 80px;
-    width: 30%;
-}
-
-.mini-box-info{
-    margin-top: 50px;
+/*aside*/
+.indice {
     clear: both;
-}
-
-.info-name{
-      margin-left: 10px;
-      float: left;
-}
-
-.sub-info-name{
-    clear: both;
-}
-
-.container-perfil{
-    margin: 20px 20px 0 0;
-}
-
-.texto-perfil{
-    margin-left: 60px;
-}
-
-.titulos-apartados {
-    margin-bottom: 20px;
-}
-
-.programa{
-    clear: both;
-}
-
-/*aside categorias*/
-.filtros {
-    clear: both;
-    float: left;
-    margin-top: 66px;
+    float:left;
     width: 17%;
-}
-
-.categorias{
-    margin-top:50px;
-}
-
-.categorias-menu {
-    line-height: 30px;
-    margin: 0;
-    padding-right: 10px;
-}
-
-.categorias-menu a:hover,
-.categorias-menu a.select {
-    color:#f15c22;
-}
-
-.menu-ordenar ul{
-    padding-left:0;
-}
-
-.lista-categorias{
-    list-style: none;
-    margin-top: 20px;
-}
-
-.programas, .categorias-2{
-    margin-top: 30px;
-}
-
-.cuadro-program{
-    margin-top: 20px;
-    width: 60%;
-}
-
-.checkbox{
+    margin:0;
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(245,245,245);
     padding: 0;
-    margin-top: 20px;
 }
 
-.filtros-hide-tablet{
-    margin-bottom: 30px;
-    padding: 10px 30px;
+.indice ul{
+    padding: 0;
+    margin:0;
 }
 
-.filtros-2{
+.img-logo {
+    margin: 20px;
+    width: 200px;
+}
+
+.index-hide-1,
+.index-hide-2{
     display: none;
+    padding:0 0 10px 10px;
 }
 
-.grupo-iconos{
-    width: 33%;
+.index-hide-1 li,
+.index-hide-2 li{
+    padding:7px 7px 7px 15px;
+    font-size:14px;
 }
 
-.categorias-hide{
-    padding-top: 30px;
+.index-hide-1 a:hover,
+.index-hide-2 a:hover,
+.index-hide-1 a.seleccionado-2,
+.index-hide-2 a.seleccionado-2{
+    color:#F15C22;
 }
-
-.categorias-hide-2{
-    padding-top: 25px;
-}
-
-.flecha-abrir {
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    border-top: 8px solid #404041;
-    cursor:pointer;
-    height: 0;
-    margin:23px 0 0 10px;
-    width: 0;
-}
-
-.flecha-cerrar{
-    border-bottom: 8px solid #404041;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    cursor:pointer;
-    display:none;
-    height: 0;
-    margin:23px 0 0 10px;
-    width: 0;
-}
-
-.container-ordenar-mobile{
-  display: none;
-}
-
-.iconos-cat{
-  list-style: none;
-}
-
-/*aside perfil*/
-.parte-izquierda {
-    width: 30%;
-    padding: 30px 30px;
-    background-color: white;
-}
-
-.cien-por-cien {
-    width: 100%;
-}
-
-.img-perfil{
-    width: 60%;
-}
-
-.informacion-persona{
-    margin: 30px 0;
-}
-

@@ -1,27 +1,12 @@
 /*titulos*/
-.cabecera-cursos,
-.cabecera-alumnos{
-    margin:0 auto;
+.centrar-munecos {
+    margin: 0 auto;
+    padding-top: 150px;
+    width: 400px;
 }
 
-.titulo-encabezado-1 {
-   width: 70%;
-   margin: 0 auto;
-}
-
-.titulo-encabezado,
-.contenido-titulo{
-    width: 100%;
-}
-
-.muneco-busqueda{
-    background-image: url(../imagenes/muneco-busqueda.svg);
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    background-size: 100% auto;
-    height: 162px;
-    margin-right: 5px;
-    width: 133px;
+.imagen-munecos {
+    width: 400px;
 }
 
 

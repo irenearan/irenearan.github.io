@@ -1,33 +1,6 @@
 
 $(document).ready(function(){
-/*filtros-responsive*/
-$('#abrir-filtros').click(function(e){
-        $(this).hide();
-        $('#cerrar-filtros').show();
-        $('.filtros-2').show();
-        return false;
-});
 
-$('#cerrar-filtros').click(function(e){
-        $(this).hide();
-        $('#abrir-filtros').show();
-        $('.filtros-2').hide();
-        return false;
-});
-
-$('#abrir-ordenar').click(function(e){
-        $(this).hide();
-        $('#cerrar-ordenar').show();
-        $('.container-ordenar-mobile').show();
-        return false;
-});
-
-$('#cerrar-ordenar').click(function(e){
-        $(this).hide();
-        $('#abrir-ordenar').show();
-        $('.container-ordenar-mobile').hide();
-        return false;
-});
 /*filtros*/
 $('.categoria-arquitectura').click(function(e){
         e.preventDefault();
@@ -137,105 +110,21 @@ $('.categoria-programacion').click(function(e){
           $('.lista-categorias a:not(.categoria-programacion)').removeClass('select');
         }
 });
-/*editar perfil*/
-$(".lapiz-clicar-1").click(function() {
-            $('.perfil-hide-1').toggle();
-            $('.perfil-show-1').toggle();
-});
-$(".lapiz-clicar-2").click(function() {
-            $('.perfil-hide-2').toggle();
-            $('.perfil-show-2').toggle();
-});
-$(".lapiz-clicar-3").click(function() {
-            $('.perfil-hide-3').toggle();
-            $('.perfil-show-3').toggle();
-});
-/*mensajeria*/
-
-$('.pestanya-m-no-leido').click(function() {
-    $('.option-recibido').hide();
-    $('.option-no-leido').show();
-    $('.option-enviado').hide();
-    $('.seleccionado-m').removeClass('seleccionado-m');
-    $('.pestanya-m-no-leido').addClass('seleccionado-m');
+$('.pestanya-1').click(function() {
+    $('.option-1').show();
+    $('.option-3').hide();
+    $('.option-4').hide();
+    $('.option-5').hide();
+    $('.option-6').hide();
+    $('.option-2').hide();
+    $('.option-8').hide();
+    $('.option-7').hide();
+    $('.index-hide-1').hide();
+    $('.index-hide-2').hide();
+    $('.seleccionado').removeClass('seleccionado');
+    $('.pestanya-1').addClass('seleccionado');
     return false;
 });
-$('.pestanya-m-enviado').click(function() {
-    $('.option-recibido').hide();
-    $('.option-no-leido').hide();
-    $('.option-enviado').show();
-    $('.seleccionado-m').removeClass('seleccionado-m');
-    $('.pestanya-m-enviado').addClass('seleccionado-m');
-    return false;
-});
-$('.pestanya-m-recibido').click(function() {
-    $('.option-recibido').show();
-    $('.option-no-leido').hide();
-    $('.option-enviado').hide();
-    $('.seleccionado-m').removeClass('seleccionado-m');
-    $('.pestanya-m-recibido').addClass('seleccionado-m');
-    return false;
-});
- $(".mensaje-1").click(function () {
-    $('.mensaje-desplegado-1').fadeToggle("fast");
-    $('.mensaje-desplegado-2').hide();
-    $('.mensaje-desplegado-3').hide();
-    $('.mensaje-desplegado-4').hide();
-    $('.mensaje-desplegado-5').hide();
-    });
-
-$(".mensaje-2").click(function () {
-    $('.mensaje-desplegado-2').fadeToggle("fast");
-    $('.mensaje-desplegado-1').hide();
-    $('.mensaje-desplegado-3').hide();
-    $('.mensaje-desplegado-4').hide();
-    $('.mensaje-desplegado-5').hide();
-    });
-
-$(".mensaje-3").click(function () {
-    $('.mensaje-desplegado-3').fadeToggle("fast");
-    $('.mensaje-desplegado-1').hide();
-    $('.mensaje-desplegado-2').hide();
-    $('.mensaje-desplegado-4').hide();
-    $('.mensaje-desplegado-5').hide();
-    });
-
-$(".mensaje-4").click(function () {
-    $('.mensaje-desplegado-4').fadeToggle("fast");
-    $('.mensaje-desplegado-1').hide();
-    $('.mensaje-desplegado-2').hide();
-    $('.mensaje-desplegado-3').hide();
-    $('.mensaje-desplegado-5').hide();
-    });
-
-$(".mensaje-5").click(function () {
-    $('.mensaje-desplegado-5').fadeToggle("fast");
-    $('.mensaje-desplegado-1').hide();
-    $('.mensaje-desplegado-2').hide();
-    $('.mensaje-desplegado-3').hide();
-    $('.mensaje-desplegado-4').hide();
-    });
-/*ordenar*/
-$('a.reciente').click(function(e) {
-        e.preventDefault();
-        tinysort('ul.anuncios>li',{data:'reciente', order:'desc'});
-        $('.reciente').addClass('selection');
-        $('.menu-ordenar a:not(.reciente').removeClass('selection');
-      });
-
-$('a.popular').click(function(e) {
-        e.preventDefault();
-        tinysort('ul.anuncios>li',{data:'popularidad', order:'desc'});
-        $('.popular').addClass('selection');
-        $('.menu-ordenar a:not(.popular').removeClass('selection');
-      });
-$('a.puntuado').click(function(e) {
-        e.preventDefault();
-        tinysort('ul.anuncios>li',{data:'puntuacion', order:'desc'});
-        $('.puntuado').addClass('selection');
-        $('.menu-ordenar a:not(.puntuado').removeClass('selection');
-      });
-/*pestanyas*/
 $('.pestanya-2').click(function() {
     $('.option-1').hide();
     $('.option-3').hide();
@@ -243,6 +132,10 @@ $('.pestanya-2').click(function() {
     $('.option-5').hide();
     $('.option-6').hide();
     $('.option-2').show();
+    $('.option-8').hide();
+    $('.option-7').hide();
+     $('.index-hide-1').hide();
+    $('.index-hide-2').hide();
     $('.seleccionado').removeClass('seleccionado');
     $('.pestanya-2').addClass('seleccionado');
     return false;
@@ -254,6 +147,10 @@ $('.pestanya-3').click(function() {
     $('.option-5').hide();
     $('.option-6').hide();
     $('.option-3').show();
+    $('.option-8').hide();
+    $('.option-7').hide();
+     $('.index-hide-1').hide();
+    $('.index-hide-2').hide();
     $('.seleccionado').removeClass('seleccionado');
     $('.pestanya-3').addClass('seleccionado');
     return false;
@@ -265,6 +162,10 @@ $('.pestanya-4').click(function() {
     $('.option-5').hide();
     $('.option-6').hide();
     $('.option-4').show();
+    $('.option-8').hide();
+    $('.option-7').hide();
+     $('.index-hide-1').show();
+    $('.index-hide-2').hide();
     $('.seleccionado').removeClass('seleccionado');
     $('.pestanya-4').addClass('seleccionado');
     return false;
@@ -276,6 +177,10 @@ $('.pestanya-5').click(function() {
     $('.option-2').hide();
     $('.option-6').hide();
     $('.option-5').show();
+    $('.option-8').hide();
+    $('.option-7').hide();
+    $('.index-hide-1').hide();
+    $('.index-hide-2').show();
     $('.seleccionado').removeClass('seleccionado');
     $('.pestanya-5').addClass('seleccionado');
     return false;
@@ -287,88 +192,131 @@ $('.pestanya-6').click(function() {
     $('.option-2').hide();
     $('.option-5').hide();
     $('.option-6').show();
+    $('.option-8').hide();
+    $('.option-7').hide();
+     $('.index-hide-1').hide();
+    $('.index-hide-2').hide();
     $('.seleccionado').removeClass('seleccionado');
     $('.pestanya-6').addClass('seleccionado');
     return false;
 });
-$('.pestanya-1').click(function() {
-    $('.option-2-1').hide();
-    $('.option-3-1').hide();
-    $('.option-4-1').hide();
-    $('.option-5-1').hide();
-    $('.option-6-1').hide();
-    $('.option-1-1').show();
+$('.pestanya-7').click(function() {
+    $('.option-1').hide();
+    $('.option-3').hide();
+    $('.option-4').hide();
+    $('.option-2').hide();
+    $('.option-5').hide();
+    $('.option-6').hide();
+    $('.option-8').hide();
+    $('.option-7').show();
+     $('.index-hide-1').hide();
+    $('.index-hide-2').hide();
     $('.seleccionado').removeClass('seleccionado');
-    $('.pestanya-1').addClass('seleccionado');
+    $('.pestanya-7').addClass('seleccionado');
     return false;
 });
-$('.pestanya-2').click(function() {
-    $('.option-1-1').hide();
-    $('.option-3-1').hide();
-    $('.option-4-1').hide();
-    $('.option-5-1').hide();
-    $('.option-6-1').hide();
-    $('.option-2-1').show();
+$('.pestanya-8').click(function() {
+    $('.option-1').hide();
+    $('.option-3').hide();
+    $('.option-4').hide();
+    $('.option-2').hide();
+    $('.option-5').hide();
+    $('.option-8').show();
+    $('.option-6').hide();
+    $('.option-7').hide();
+     $('.index-hide-1').hide;
+    $('.index-hide-2').hide;
     $('.seleccionado').removeClass('seleccionado');
-    $('.pestanya-2').addClass('seleccionado');
+    $('.pestanya-8').addClass('seleccionado');
     return false;
 });
-$('.pestanya-3').click(function() {
-    $('.option-1-1').hide();
-    $('.option-2-1').hide();
-    $('.option-4-1').hide();
-    $('.option-5-1').hide();
-    $('.option-6-1').hide();
-    $('.option-3-1').show();
-    $('.seleccionado').removeClass('seleccionado');
-    $('.pestanya-3').addClass('seleccionado');
+/*subpestañas*/
+$('.sub-pestanya-1').click(function() {
+    $('.option-1b').show();
+    $('.option-3b').hide();
+    $('.option-4b').hide();
+    $('.option-2b').hide();
+    $('.option-5b').hide();
+    $('.option-6b').hide();
+    $('.option-7b').hide();
+    $('.seleccionado-2').removeClass('seleccionado-2');
+    $('.sub-pestanya-1').addClass('seleccionado-2');
     return false;
 });
-$('.pestanya-4').click(function() {
-    $('.option-1-1').hide();
-    $('.option-3-1').hide();
-    $('.option-2-1').hide();
-    $('.option-5-1').hide();
-    $('.option-6-1').hide();
-    $('.option-4-1').show();
-    $('.seleccionado').removeClass('seleccionado');
-    $('.pestanya-4').addClass('seleccionado');
+$('.sub-pestanya-2').click(function() {
+    $('.option-1b').hide();
+    $('.option-3b').hide();
+    $('.option-4b').hide();
+    $('.option-2b').show();
+    $('.option-5b').hide();
+    $('.option-6b').hide();
+    $('.option-7b').hide();
+    $('.seleccionado-2').removeClass('seleccionado-2');
+    $('.sub-pestanya-2').addClass('seleccionado-2');
     return false;
 });
-$('.pestanya-5').click(function() {
-    $('.option-1-1').hide();
-    $('.option-3-1').hide();
-    $('.option-4-1').hide();
-    $('.option-2-1').hide();
-    $('.option-6-1').hide();
-    $('.option-5-1').show();
-    $('.seleccionado').removeClass('seleccionado');
-    $('.pestanya-5').addClass('seleccionado');
+$('.sub-pestanya-3').click(function() {
+    $('.option-1b').hide();
+    $('.option-3b').show();
+    $('.option-4b').hide();
+    $('.option-2b').hide();
+    $('.option-5b').hide();
+    $('.option-6b').hide();
+    $('.option-7b').hide();
+    $('.seleccionado-2').removeClass('seleccionado-2');
+    $('.sub-pestanya-3').addClass('seleccionado-2');
     return false;
 });
-$('.pestanya-6').click(function() {
-    $('.option-1-1').hide();
-    $('.option-3-1').hide();
-    $('.option-4-1').hide();
-    $('.option-2-1').hide();
-    $('.option-5-1').hide();
-    $('.option-6-1').show();
-    $('.seleccionado').removeClass('seleccionado');
-    $('.pestanya-6').addClass('seleccionado');
+$('.sub-pestanya-4').click(function() {
+    $('.option-1b').hide();
+    $('.option-3b').hide();
+    $('.option-4b').show();
+    $('.option-2b').hide();
+    $('.option-5b').hide();
+    $('.option-6b').hide();
+    $('.option-7b').hide();
+    $('.seleccionado-2').removeClass('seleccionado-2');
+    $('.sub-pestanya-4').addClass('seleccionado-2');
+    return false;
+});
+$('.sub-pestanya-5').click(function() {
+    $('.option-1b').hide();
+    $('.option-3b').hide();
+    $('.option-4b').hide();
+    $('.option-2b').hide();
+    $('.option-5b').show();
+    $('.option-6b').hide();
+    $('.option-7b').hide();
+    $('.seleccionado-2').removeClass('seleccionado-2');
+    $('.sub-pestanya-5').addClass('seleccionado-2');
+    return false;
+});
+$('.sub-pestanya-6').click(function() {
+    $('.option-1b').hide();
+    $('.option-3b').hide();
+    $('.option-4b').hide();
+    $('.option-2b').hide();
+    $('.option-5b').hide();
+    $('.option-6b').show();
+    $('.option-7b').hide();
+    $('.seleccionado-2').removeClass('seleccionado-2');
+    $('.sub-pestanya-6').addClass('seleccionado-2');
+    return false;
+});
+$('.sub-pestanya-7').click(function() {
+    $('.option-1b').hide();
+    $('.option-3b').hide();
+    $('.option-4b').hide();
+    $('.option-2b').hide();
+    $('.option-5b').hide();
+    $('.option-6b').hide();
+    $('.option-7b').show();
+    $('.seleccionado-2').removeClass('seleccionado-2');
+    $('.sub-pestanya-7').addClass('seleccionado-2');
     return false;
 });
 
-$('.pestanya-1').click(function() {
-    $('.option-2-1').hide();
-    $('.option-3-1').hide();
-    $('.option-4-1').hide();
-    $('.option-5-1').hide();
-    $('.option-6-1').hide();
-    $('.option-1-1').show();
-    $('.seleccionado').removeClass('seleccionado');
-    $('.pestanya-1').addClass('seleccionado');
-    return false;
-});
+
 /*tablas*/
 $('td .icono-tabla-off').click(function() {
     $(this).hide();

@@ -1,0 +1,203 @@
+
+.sg-container-full {
+    width: 100%;
+}
+
+
+.sg-margin-bottom{
+    margin-bottom: 55px;
+}
+
+.sg-padding-top{
+    padding-top: 20px;
+}
+
+
+
+
+.sg-color-tipografia{
+    background-color: #808284;
+    float: none;
+    margin-left: 20px;
+}
+
+.sg-margin-top,
+.sg-margin-top-iconos{
+    margin-top: 10px;
+}
+
+.sg-margin-top-logo {
+    margin-top: 25px;
+}
+
+.sg-margin-top-texto {
+    margin-top: 60px;
+}
+
+.sg-display-block{
+    display: block;
+}
+
+.sg-ancho-estrellas,
+.sg-ancho-conocimientos {
+    width: 120px;
+}
+
+.sg-ancho-caja {
+    width: 30%;
+}
+
+.sg-float-none{
+    float: none;
+    clear: both;
+}
+
+.sg-contenedor-header{
+    width: 1500px;
+}
+
+.sg-container-button{
+    padding-top: 20px 0 40px 0;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.sg-pepe{
+    float: left;
+    margin: 40px 40px 25px 0;
+    width: 20%;
+}
+
+.sg-pepe-imagen{
+    width: 100%;
+}
+
+.sg-todos-anuncios{
+    padding-top: 20px;
+    margin: 10px 0 40px;
+    width: 100%;
+}
+
+.sg-todos-anuncios li{
+    list-style: none;
+}
+
+.sg-contenido-valoraciones{
+    width: 70%;
+}
+
+.sg-iconos-lateral {
+    margin: 0 auto;
+    width: 320px;
+}
+
+.sg-iconos-lateral-azules {
+    margin: 0 auto;
+    width: 220px;
+}
+
+.sg-iconos-header {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 180px;
+}
+
+.sg-ilustraciones-margin {
+    margin:0 auto;
+    padding-top: 20px;
+    width: 750px;
+}
+
+.sg-color-anuncios {
+    background-color: white;
+}
+
+.sg-iconos-negros {
+    clear: both;
+    margin:0 auto;
+    padding-top: 25px;
+    width: 370px;
+}
+
+.sg-centrar-tabla {
+    margin: 20px auto 0;
+    width: 300px;
+}
+
+.sg-text-align {
+    text-align: center;
+}
+
+
+.sg-max-width {
+    max-width: 600px;
+}
+
+.sg-margin-centro {
+    margin: 0 auto;
+}
+
+.sg-margin-bottom-title {
+    margin-bottom: 40px;
+}
+
+.sg-no-margin {
+    margin-top: 5px 0 30px 0;
+}
+
+
+.sg-margin-top-text {
+    padding-top: 50px;
+}
+
+.sg-p-colores {
+    color: black;
+    margin-top: 160px;
+}
+
+.sg-margin-buttons {
+    margin-right: 20px;
+}
+
+.sg-float-iconos {
+    float: left;
+}
+
+.sg-margin-bottom-links {
+    margin-bottom: 20px;
+}
+
+.sg-borde-gris {
+    border: 1px solid rgba(51, 51, 51, 0.15);
+}
+
+.sg-margin-top-texto {
+    margin-top: 180px;
+}
+
+.sg-margin-iconos {
+    margin-bottom: 10px;
+}
+
+.sg-margin-title {
+    margin-left: 190px;
+}
+
+.sg-no-margin {
+    margin: 0;
+    padding: 0;
+}
+
+.sg-margin-negativo {
+    margin-top: -20px
+}
+
+.sg-container-main-title{
+    margin: 0 auto;
+    width: 50%;
+}
+
+
+
+
+

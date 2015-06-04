@@ -164,10 +164,16 @@ $('.pestanya-4').click(function() {
     $('.option-4').show();
     $('.option-8').hide();
     $('.option-7').hide();
+    $('.option-1b').show();
      $('.index-hide-1').show();
     $('.index-hide-2').hide();
     $('.seleccionado').removeClass('seleccionado');
     $('.pestanya-4').addClass('seleccionado');
+    $('.sub-pestanya-1').addClass('seleccionado-2');
+    $('.sub-pestanya-2').removeClass('seleccionado-2');
+    $('.sub-pestanya-3').removeClass('seleccionado-2');
+    $('.sub-pestanya-4').removeClass('seleccionado-2');
+
     return false;
 });
 $('.pestanya-5').click(function() {
@@ -179,10 +185,16 @@ $('.pestanya-5').click(function() {
     $('.option-5').show();
     $('.option-8').hide();
     $('.option-7').hide();
+    $('.option-5b').show();
     $('.index-hide-1').hide();
     $('.index-hide-2').show();
     $('.seleccionado').removeClass('seleccionado');
     $('.pestanya-5').addClass('seleccionado');
+    $('.sub-pestanya-5').addClass('seleccionado-2');
+    $('.sub-pestanya-6').removeClass('seleccionado-2');
+    $('.sub-pestanya-7').removeClass('seleccionado-2');
+    $('.sub-pestanya-8').removeClass('seleccionado-2');
+
     return false;
 });
 $('.pestanya-6').click(function() {

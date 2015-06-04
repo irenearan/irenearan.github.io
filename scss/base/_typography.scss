@@ -5,6 +5,7 @@
     font-size: 2rem;
     margin: 0;
 }
+
 .main-title{
     color:#00A6A5;
     text-align: center;
@@ -13,13 +14,14 @@
     text-transform: uppercase;
     margin: 10px 0 0;
 }
-.font-weight-light{
+.light{
     font-weight: 300;
 }
 
 p {
     font-size: 1rem;
     text-align: left;
+    line-height: 1.5;
 }
 .secondary-title {
      font-size: 1.125rem;
@@ -139,13 +141,6 @@ p {
 .regular{
     font-weight: 400;
 }
-
-.light {
-    color:#00A6A5;
-    font-weight: 300;
-    margin: 0;
-}
-
 .title-contactar{
     font-size: 1.125rem;
 }

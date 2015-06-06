@@ -36,8 +36,6 @@ p {
     text-align: center;
 }
 
-
-
 .type-color-1{
     color: #00A6A5;
 }
@@ -57,6 +55,42 @@ p {
 .type-color-5{
     color: #404041;
 }
+.letterspacing {
+    letter-spacing: 3px;
+}
+.lato-1 {
+    font-family: 'Lato';
+    font-weight: 100;
+}
+
+.lato-2 {
+    font-family: 'Lato';
+    font-weight: 300;
+}
+
+.lato-3 {
+    font-family: 'Lato';
+    font-weight: 700;
+}
+
+.dosis-1 {
+    font-family: 'Dosis';
+    font-weight: 200;
+}
+
+.dosis-2 {
+   font-family: 'Dosis';
+   font-weight: 500;
+}
+
+.dosis-3 {
+    font-family: 'Dosis';
+    font-weight: 700;
+}
+
+
+
+
 
 .modificar{
    font-size: 0.875rem;

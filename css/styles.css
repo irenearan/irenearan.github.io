@@ -50,7 +50,10 @@ p {
   color: #404041; }
 
 .letterspacing {
-  letter-spacing: 3px; }
+  letter-spacing: 1px; }
+
+.centrado {
+  text-align: center; }
 
 .lato-1 {
   font-family: 'Lato';
@@ -76,100 +79,6 @@ p {
   font-family: 'Dosis';
   font-weight: 700; }
 
-.modificar {
-  font-size: 0.875rem; }
-
-.title {
-  font-size: 3rem;
-  font-family: "Dosis";
-  font-weight: 700;
-  line-height: 1;
-  margin: 0 0 10px 0;
-  text-transform: uppercase; }
-
-.title-form {
-  font-family: "Dosis";
-  font-size: 2rem;
-  font-weight: 400;
-  line-height: 1;
-  text-transform: uppercase; }
-
-.titulo-ampliar-curso {
-  color: #404041;
-  font-weight: 500;
-  margin-top: 50px;
-  max-width: 500px; }
-
-.profile-name {
-  font-size: 24px;
-  text-transform: uppercase;
-  font-weight: 400; }
-
-.destacado {
-  font-family: "Dosis";
-  font-size: 2.25rem;
-  font-weight: 400;
-  margin: 0; }
-
-.typo-pop-up {
-  font-family: "DOSIS", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 300;
-  color: black;
-  margin: 40px;
-  text-align: center;
-  text-transform: uppercase; }
-
-.titulo-nuevo-usuario {
-  font-family: "Dosis";
-  font-size: 2.25rem;
-  font-weight: 400;
-  text-transform: uppercase; }
-
-.subtitle {
-  font-size: 1.5rem;
-  margin: 0; }
-
-.secondary-subtitle {
-  color: #404041;
-  font-size: 0.875rem;
-  font-weight: 300;
-  margin: 0; }
-
-.secondary-subtitle-ampliado {
-  color: #404041;
-  font-size: 0.875rem;
-  font-weight: 300;
-  margin: 10px 0 0 0;
-  width: 45%; }
-
-.regular {
-  font-weight: 400; }
-
-.title-contactar {
-  font-size: 1.125rem; }
-
-.tags {
-  font-size: 0.75rem;
-  font-style: italic;
-  font-weight: lighter; }
-
-.nofloat {
-  float: none;
-  margin: 0; }
-
-.centrado {
-  text-align: center; }
-
-.line {
-  line-height: 0.5; }
-
-.underline {
-  text-decoration: underline; }
-
-.uppercase {
-  text-transform: uppercase; }
-
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -179,9 +88,6 @@ p {
   padding: 0;
   position: absolute;
   width: 1px; }
-
-.button {
-  font-family: 'Lato', sans-serif; }
 
 /*links*/
 a {
@@ -256,10 +162,10 @@ ul {
   float: right; }
 
 .margin-left {
-  margin-left: 10px; }
+  margin-left: 70px; }
 
 .margin-right {
-  margin-right: 5px; }
+  margin-right: 15px; }
 
 .no-margin {
   margin: 0; }
@@ -292,6 +198,10 @@ ul {
   padding: 20px 20px 30px 20px;
   min-height: 475px;
   width: 100%; }
+
+.text-float {
+  width: 60%;
+  float: left; }
 
 /*botones*/
 button {
@@ -477,7 +387,7 @@ span.buzon-buscador {
 .ilustrations {
   float: left;
   margin: 40px 40px 25px 0;
-  width: 20%; }
+  width: 18%; }
 
 .imagen-redondo {
   border-radius: 50%;
@@ -986,11 +896,20 @@ contenedores anuncios
 /*contenido memoria*/
 .float-left {
   float: left;
-  width: 40%; }
+  width: 50%; }
 
 .float-right {
   float: right;
-  width: 40%; }
+  width: 50%; }
+
+.img-3 {
+  width: 33%; }
+
+.img-2 {
+  width: 46%; }
+
+.img-4 {
+  width: 25%; }
 
 /*titulos*/
 .centrar-munecos {

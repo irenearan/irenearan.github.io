@@ -92,7 +92,6 @@ ul{
 
 .opacity-hover:hover{
     opacity: .6;
-    transition: all 0.1s ease;
     cursor: pointer;
 }
 
@@ -105,8 +104,7 @@ ul{
 }
 
 hr{
-  border: 0;
-  border-top: 1px solid #999;
+    border: 0;
+    border-top: 1px solid #999;
 }
-
 

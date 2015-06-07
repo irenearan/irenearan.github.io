@@ -185,7 +185,6 @@ ul {
 
 .opacity-hover:hover {
   opacity: .6;
-  transition: all 0.1s ease;
   cursor: pointer; }
 
 .pointer {
@@ -914,6 +913,10 @@ contenedores anuncios
 
 .img-4 {
   width: 25%; }
+
+.borde {
+  border: 2px solid;
+  border-color: #eae8e8; }
 
 /*titulos*/
 .centrar-munecos {

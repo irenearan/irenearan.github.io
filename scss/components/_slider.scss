@@ -3,9 +3,9 @@
   .slider-2,
   .slider-3,
   .slider-4 {
-    margin: 10px 0;
-    width: 648px; /* Update to your slider width */
-    height: 380px; /* Update to your slider height */
+    margin: 0;
+    width: 648px; 
+    height: 380px; 
     position: relative;
     overflow: hidden;
   }
@@ -25,7 +25,10 @@
   .slider-4 li.active-4 {
     display: block;
   }
-.next{
+.next,
+.next-2,
+.next-3,
+.next-4,{
 
 	background-color:#F15C22;
 	width:30px;

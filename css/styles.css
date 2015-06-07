@@ -89,6 +89,12 @@ p {
   position: absolute;
   width: 1px; }
 
+.nota {
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0; }
+
 /*links*/
 a {
   text-decoration: none; }
@@ -826,34 +832,6 @@ contenedores anuncios
   height: 20px;
   width: 20px; }
 
-/*media*/
-.apartado-ampliado {
-  clear: both;
-  padding-top: 40px; }
-
-.valoracion {
-  border-bottom: 1px solid black; }
-
-.valoracion:last-child {
-  border: none; }
-
-.foto-mini {
-  clear: both;
-  float: left;
-  margin: 20px 10px 0 0; }
-
-.foto-val {
-  clear: both;
-  width: 80px; }
-
-.texto-val {
-  float: left;
-  padding-bottom: 20px;
-  width: 70%; }
-
-.stars-val {
-  width: 21%; }
-
 /*pestañas*/
 .pestanyas {
   clear: both;
@@ -896,7 +874,7 @@ contenedores anuncios
 .option-7b {
   display: none; }
 
-/*contenido memoria*/
+/*imagenes*/
 .float-left {
   float: left;
   width: 50%; }
@@ -905,32 +883,34 @@ contenedores anuncios
   float: right;
   width: 50%; }
 
+.margin-imagenes {
+  margin: 5px; }
+
 .img-3 {
-  width: 33%; }
+  width: 31%;
+  margin: 5px; }
 
 .img-2 {
-  width: 46%; }
+  width: 48%;
+  margin: 5px; }
 
 .img-4 {
   width: 25%; }
+
+.borde {
+  border: 2px solid;
+  border-color: #eae8e8; }
 
 /*slider*/
 .slider-1,
 .slider-2,
 .slider-3,
 .slider-4 {
-  margin: 10px 0;
+  margin: 0;
   width: 648px;
-  /* Update to your slider width */
   height: 380px;
-  /* Update to your slider height */
   position: relative;
   overflow: hidden; }
-.borde {
-  border: 2px solid;
-  border-color: #eae8e8; }
-
-/*titulos*/
 
 .slider-1 li,
 .slider-2 li,
@@ -947,7 +927,10 @@ contenedores anuncios
 .slider-4 li.active-4 {
   display: block; }
 
-.next {
+.next,
+.next-2,
+.next-3,
+.next-4 {
   background-color: #F15C22;
   width: 30px;
   height: 40px;

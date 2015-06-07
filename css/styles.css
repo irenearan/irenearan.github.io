@@ -185,7 +185,6 @@ ul {
 
 .opacity-hover:hover {
   opacity: .6;
-  transition: all 0.1s ease;
   cursor: pointer; }
 
 .pointer {
@@ -193,6 +192,10 @@ ul {
 
 .margin-auto {
   margin: 0 auto; }
+
+hr {
+  border: 0;
+  border-top: 1px solid #999; }
 
 .contenedor-info {
   padding: 20px 20px 30px 20px;
@@ -923,6 +926,11 @@ contenedores anuncios
   /* Update to your slider height */
   position: relative;
   overflow: hidden; }
+.borde {
+  border: 2px solid;
+  border-color: #eae8e8; }
+
+/*titulos*/
 
 .slider-1 li,
 .slider-2 li,

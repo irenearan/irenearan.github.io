@@ -1,9 +1,9 @@
 /*footer*/
 footer {
-    background-color: #231F20;
+    background-color: rgb(245,245,245);
     clear: both;
     margin: 0;
-    padding: 20px;
+    padding: 20px 20px 50px;
     width: 100%;
 }
 
@@ -11,60 +11,3 @@ footer {
     margin: 0 auto;
 }
 
-.terms{
-    padding-top: 10px;
-}
-
-.mini-box-pie {
-    float: left;
-    margin: 0 auto;
-    padding: 20px;
-    width: 33%;
-}
-
-.icono-pie {
-    width: 100%;
-}
-
-.iconos {
-    margin: 0 auto;
-    width: 185px;
-}
-
-.red-social {
-    float:left;
-    padding: 0 10px 0 0;
-}
-
-.newsletter-input {
-    padding-top: 10px;
-    width: 211px;
-}
-
-.newsletter {
-    margin: 0 auto;
-    width: 280px;
-}
-
-.caja-footer {
-    float: left;
-}
-
-/*media queries footer*/
-@media screen and (max-width: 800px){
-    .mini-box-pie {
-         width: 100%;
-        text-align: center;
-    }
-    .terms {
-        text-align: center;
-    }
-    .newsletter-input {
-        margin: 0 auto;
-        width: 280px;
-    }
-    .iconos{
-        margin: 0 auto;
-        width: 185px;
-    }
-}

@@ -1,12 +1,36 @@
-/*titulos*/
-.centrar-munecos {
-    margin: 0 auto;
-    padding-top: 150px;
-    width: 400px;
+  /*slider*/
+  .slider-1,
+  .slider-2,
+  .slider-3,
+  .slider-4 {
+    margin: 10px 0;
+    width: 648px; /* Update to your slider width */
+    height: 380px; /* Update to your slider height */
+    position: relative;
+    overflow: hidden;
+  }
+
+  .slider-1 li,
+  .slider-2 li,
+  .slider-3 li,
+  .slider-4 li,{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .slider-1 li.active,
+  .slider-2 li.active-2,
+  .slider-3 li.active-3,
+  .slider-4 li.active-4 {
+    display: block;
+  }
+.next{
+
+	background-color:#F15C22;
+	width:30px;
+	height:40px;
+	color:white;
+	font-size:32px;
+	text-align:center;
 }
-
-.imagen-munecos {
-    width: 400px;
-}
-
-

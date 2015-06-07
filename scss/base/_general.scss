@@ -48,10 +48,9 @@ body {
 .clear{
     clear: both;
 }
-
-
-
-
+ul{
+  padding:0;
+}
 
 .left{
     float: left;
@@ -62,16 +61,13 @@ body {
 }
 
 .margin-left{
-    margin-left: 10px;
+    margin-left: 70px;
 }
 
 .margin-right{
-    margin-right: 5px;
+    margin-right: 15px;
 }
 
-.clear{
-    clear: both;
-}
 
 .no-margin{
     margin: 0;
@@ -104,23 +100,8 @@ body {
     cursor: pointer;
 }
 
-.imagen-redondo{
-    border-radius: 50%;
-    border: 1px solid rgba(51, 51, 51, 0.15);
-}
-
-.espacio-inferior-ampliado {
-    padding-bottom: 40px;
-}
-
-.imagen-perfil-aampliado {
-    max-width: 40%;
-}
-
 .margin-auto{
     margin: 0 auto;
 }
 
-.background-pagina-hide{
-    margin: 20px;
-}
+

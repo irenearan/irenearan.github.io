@@ -36,8 +36,6 @@ p {
     text-align: center;
 }
 
-
-
 .type-color-1{
     color: #00A6A5;
 }
@@ -58,131 +56,52 @@ p {
     color: #404041;
 }
 
-.modificar{
-   font-size: 0.875rem;
-}
-
-.title{
-     font-size: 3rem;
-     font-family: "Dosis";
-     font-weight: 700;
-     line-height: 1;
-     margin: 0 0 10px 0;
-     text-transform: uppercase;
-}
-
-.title-form{
-    font-family: "Dosis";
-    font-size: 2rem;
-    font-weight: 400;
-    line-height: 1;
-    text-transform: uppercase;
-}
-
-.titulo-ampliar-curso {
-    color: #404041;
-    font-weight: 500;
-    margin-top: 50px;
-    max-width: 500px;
-}
-
-.profile-name{
-    font-size: 24px;
-    text-transform: uppercase;
-    font-weight: 400;
-}
-
-.destacado{
-     font-family: "Dosis";
-     font-size: 2.25rem;
-     font-weight: 400;
-     margin:0;
-}
-
-.typo-pop-up{
-    font-family: "DOSIS", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 300;
-    color: black;
-    margin: 40px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.titulo-nuevo-usuario{
-    font-family: "Dosis";
-    font-size: 2.25rem;
-    font-weight: 400;
-    text-transform: uppercase;
-}
-
-.subtitle {
-    font-size: 1.5rem;
-    margin: 0;
-}
-
-
-
-.secondary-subtitle{
-    color:#404041;
-    font-size:0.875rem;
-    font-weight: 300;
-    margin: 0;
-}
-
-.secondary-subtitle-ampliado {
-    color:#404041;
-    font-size:0.875rem;
-    font-weight: 300;
-    margin: 10px 0 0 0;
-    width: 45%;
-}
-
-.regular{
-    font-weight: 400;
-}
-.title-contactar{
-    font-size: 1.125rem;
-}
-
-.tags {
-    font-size: 0.75rem;
-    font-style: italic;
-    font-weight: lighter;
-}
-
-.nofloat{
-    float: none;
-    margin: 0;
+.letterspacing {
+    letter-spacing: 1px;
 }
 
 .centrado{
     text-align: center;
 }
 
-.line{
-    line-height: 0.5;
+.lato-1 {
+    font-family: 'Lato';
+    font-weight: 100;
 }
 
-.underline{
-    text-decoration: underline;
+.lato-2 {
+    font-family: 'Lato';
+    font-weight: 300;
 }
 
-.uppercase {
-    text-transform: uppercase;
+.lato-3 {
+    font-family: 'Lato';
+    font-weight: 700;
 }
 
+.dosis-1 {
+    font-family: 'Dosis';
+    font-weight: 200;
+}
+
+.dosis-2 {
+   font-family: 'Dosis';
+   font-weight: 500;
+}
+
+.dosis-3 {
+    font-family: 'Dosis';
+    font-weight: 700;
+}
 .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-}
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
 
-.button {
-    font-family: 'Lato', sans-serif;
-}
+
+

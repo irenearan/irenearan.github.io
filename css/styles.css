@@ -49,99 +49,35 @@ p {
 .type-color-5 {
   color: #404041; }
 
-.modificar {
-  font-size: 0.875rem; }
-
-.title {
-  font-size: 3rem;
-  font-family: "Dosis";
-  font-weight: 700;
-  line-height: 1;
-  margin: 0 0 10px 0;
-  text-transform: uppercase; }
-
-.title-form {
-  font-family: "Dosis";
-  font-size: 2rem;
-  font-weight: 400;
-  line-height: 1;
-  text-transform: uppercase; }
-
-.titulo-ampliar-curso {
-  color: #404041;
-  font-weight: 500;
-  margin-top: 50px;
-  max-width: 500px; }
-
-.profile-name {
-  font-size: 24px;
-  text-transform: uppercase;
-  font-weight: 400; }
-
-.destacado {
-  font-family: "Dosis";
-  font-size: 2.25rem;
-  font-weight: 400;
-  margin: 0; }
-
-.typo-pop-up {
-  font-family: "DOSIS", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 300;
-  color: black;
-  margin: 40px;
-  text-align: center;
-  text-transform: uppercase; }
-
-.titulo-nuevo-usuario {
-  font-family: "Dosis";
-  font-size: 2.25rem;
-  font-weight: 400;
-  text-transform: uppercase; }
-
-.subtitle {
-  font-size: 1.5rem;
-  margin: 0; }
-
-.secondary-subtitle {
-  color: #404041;
-  font-size: 0.875rem;
-  font-weight: 300;
-  margin: 0; }
-
-.secondary-subtitle-ampliado {
-  color: #404041;
-  font-size: 0.875rem;
-  font-weight: 300;
-  margin: 10px 0 0 0;
-  width: 45%; }
-
-.regular {
-  font-weight: 400; }
-
-.title-contactar {
-  font-size: 1.125rem; }
-
-.tags {
-  font-size: 0.75rem;
-  font-style: italic;
-  font-weight: lighter; }
-
-.nofloat {
-  float: none;
-  margin: 0; }
+.letterspacing {
+  letter-spacing: 1px; }
 
 .centrado {
   text-align: center; }
 
-.line {
-  line-height: 0.5; }
+.lato-1 {
+  font-family: 'Lato';
+  font-weight: 100; }
 
-.underline {
-  text-decoration: underline; }
+.lato-2 {
+  font-family: 'Lato';
+  font-weight: 300; }
 
-.uppercase {
-  text-transform: uppercase; }
+.lato-3 {
+  font-family: 'Lato';
+  font-weight: 700; }
+
+.dosis-1 {
+  font-family: 'Dosis';
+  font-weight: 200; }
+
+.dosis-2 {
+  font-family: 'Dosis';
+  font-weight: 500; }
+
+.dosis-3 {
+  font-family: 'Dosis';
+  font-weight: 700; }
 
 .visuallyhidden {
   border: 0;
@@ -152,9 +88,6 @@ p {
   padding: 0;
   position: absolute;
   width: 1px; }
-
-.button {
-  font-family: 'Lato', sans-serif; }
 
 /*links*/
 a {
@@ -219,6 +152,9 @@ body {
 .clear {
   clear: both; }
 
+ul {
+  padding: 0; }
+
 .left {
   float: left; }
 
@@ -226,13 +162,10 @@ body {
   float: right; }
 
 .margin-left {
-  margin-left: 10px; }
+  margin-left: 70px; }
 
 .margin-right {
-  margin-right: 5px; }
-
-.clear {
-  clear: both; }
+  margin-right: 15px; }
 
 .no-margin {
   margin: 0; }
@@ -258,35 +191,17 @@ body {
 .pointer {
   cursor: pointer; }
 
-.imagen-redondo {
-  border-radius: 50%;
-  border: 1px solid rgba(51, 51, 51, 0.15); }
-
-.espacio-inferior-ampliado {
-  padding-bottom: 40px; }
-
-.imagen-perfil-aampliado {
-  max-width: 40%; }
-
 .margin-auto {
   margin: 0 auto; }
-
-.background-pagina-hide {
-  margin: 20px; }
-
-/*contenido memoria*/
-.float-left {
-  float: left;
-  width: 30%; }
-
-.float-right {
-  float: right;
-  width: 45%; }
 
 .contenedor-info {
   padding: 20px 20px 30px 20px;
   min-height: 475px;
   width: 100%; }
+
+.text-float {
+  width: 60%;
+  float: left; }
 
 /*botones*/
 button {
@@ -469,120 +384,14 @@ span.buzon-buscador {
   text-decoration: none;
   text-transform: uppercase; }
 
-/*forms*/
-select {
-  border-radius: 30px;
-  height: 35px; }
-
-.pform {
-  padding-top: 8px;
-  margin: 0; }
-
-.caja-formulario {
-  clear: both;
-  margin-top: 15px; }
-
-input[type="text"],
-input[type="password"],
-input[type="email"],
-textarea,
-select {
-  background: white;
-  border: 1px solid #A0A0A0;
-  border-radius: 5px;
-  color: #A0A0A0;
-  display: block;
-  font-size: 0.876rem;
-  font-weight: 300;
-  line-height: 1rem;
-  padding: .4rem;
-  width: 100%; }
-
-.custom-file-input::-webkit-file-upload-button {
-  visibility: hidden; }
-
-.custom-file-input::before {
-  background: #E6E6E6;
-  border: 1px solid #F15C22;
-  border-radius: 0;
-  color: #F15C22;
-  content: 'SELECCIONAR';
-  cursor: pointer;
-  display: inline-block;
-  font-weight: 400;
-  font-size: 11pt;
-  outline: none;
-  padding: 5px 8px;
-  white-space: nowrap;
-  -webkit-user-select: none; }
-
-.custom-file-input:active::before {
-  background: white;
-  margin-right: 10px; }
-
-.big-textarea {
-  padding-bottom: 50px; }
-
-#mini-input {
-  background-color: white;
-  border-bottom: 1px solid black;
-  display: inline-block;
-  padding: .2rem;
-  width: 8%; }
-
-#input-footer {
-  background: white;
-  border: 1px solid black;
-  border-radius: 0;
-  height: 20px;
-  width: 100%;
-  margin-bottom: 6px; }
-
-label.error {
-  background-color: #F15C22;
-  display: none;
-  font-size: 12px;
-  width: 170px; }
-
-label {
-  display: block; }
-
-.form-check {
+.ilustrations {
   float: left;
-  margin: 0;
-  padding-right: 10px; }
+  margin: 40px 40px 25px 0;
+  width: 18%; }
 
-.form-check span {
-  color: #404041;
-  margin-left: 3px; }
-
-.box-check {
-  background: url(../imagenes/box-dias.svg) no-repeat;
-  background-size: contain;
-  clear: both;
-  height: 120px;
-  margin-bottom: 10px;
-  position: relative; }
-
-#input-generales, #input-portafolio-1,
-#input-portafolio-2,
-#input-portafolio-3,
-#input-portafolio-4,
-#input-portafolio-5,
-#input-portafolio-6, #input-sobre-mi {
-  background-color: white;
-  border-radius: 5px;
-  border: 1px solid #C2C2C2; }
-
-#input-portafolio-1,
-#input-portafolio-2,
-#input-portafolio-3,
-#input-portafolio-4,
-#input-portafolio-5,
-#input-portafolio-6 {
-  font-size: 0.8rem;
-  margin: 0 0 10px 10px;
-  width: 50%; }
+.imagen-redondo {
+  border-radius: 50%;
+  border: 1px solid rgba(51, 51, 51, 0.15); }
 
 /*iconos*/
 .icono-caracteristicas, .animacion-b, .animacion-c, .arquitectura-b, .arquitectura-c, .audiovisual-b, .audiovisual-c, .foto-b, .foto-c, .grafico-b, .grafico-c, .industrial-b, .industrial-c, .moda-b, .moda-c, .programacion-b, .programacion-c, .web-b, .web-c, .estrellas-valorar-1, .estrellas-valorar-2, .estrellas-valorar-3, .estrellas-valorar-4, .estrellas-valorar-5, .estrellas-valorar, .icono-comparte, .icono-disponibilidad, .icono-dudas, .icono-imagenes, .icono-intercambio, .icono-perfil, .iconocomparte-b, .icono-portafolio, .icono-programas, .icono-valoraciones, .mail-b, .manana-off, .manana, .manana-b, .noche-off, .noche, .noche-b, .tarde-off, .tarde, .tarde-b, .buscador-cerrar, .buscador, .icono-fb-large, .icono-link-large, .icono-mensaje-no, .icono-mensaje-si, .icono-mensaje, .icono-tw-large, .lapiz, .lapiz-redonda, .estrellas-anuncios-1, .estrellas-anuncios-2, .estrellas-anuncios-4, .estrellas-anuncios-5, .estrellas-anuncios-3, .portafolio-linkedin-b, .portafolio-linkedin-d, .portafolio-linkedin-c, .portafolio-instagram-b, .portafolio-instagram-d, .portafolio-instagram-c, .portafolio-pinterest-b, .portafolio-pinterest-d, .portafolio-pinterest-c, .portafolio-tumblert-b, .portafolio-tumblert-d, .portafolio-tumblert-c, .portafolio-behance-b, .portafolio-behance-d, .portafolio-behance-c, .portafolio-domestika-b, .portafolio-domestika-d, .portafolio-domestika-c, .nivel0, .nivel1-b, .nivel1, .nivel3-b, .nivel3, .nivel5-b, .nivel5, .consejo-1, .consejo-2, .consejo-3, .consejo-4, .icono-linkedin, .icono-facebook, .icono-twitter, .estrella-activa, .estrella-inactiva, .menu-desplegable, .logotipo-pys, .footer-blanco-fb, .footer-blanco-insta, .footer-blanco-tw, .header-mensajeria, .barra-activa, .barra-inactiva {
@@ -1002,6 +811,9 @@ contenedores anuncios
 .editar-elementos {
   width: 10px; }
 
+.ancho {
+  width: 120px; }
+
 .consejos-icono {
   height: 27px;
   width: 26px; }
@@ -1081,57 +893,23 @@ contenedores anuncios
 .option-7b {
   display: none; }
 
-/*tabla*/
-table {
-  border-collapse: collapse; }
+/*contenido memoria*/
+.float-left {
+  float: left;
+  width: 50%; }
 
-td, th {
-  font-weight: 400;
-  padding: 0.7rem;
-  text-align: center;
-  vertical-align: middle; }
+.float-right {
+  float: right;
+  width: 50%; }
 
-.reducir-tamano {
-  padding: 0.3rem; }
+.img-3 {
+  width: 33%; }
 
-th,
-.second-td {
-  background-color: #DCDCDB; }
+.img-2 {
+  width: 46%; }
 
-.second-th,
-td {
-  background-color: #F0F0F0; }
-
-.white-table {
-  background-color: white; }
-
-.icono-tabla-on {
-  display: none;
-  margin: 0 auto; }
-
-.icono-tabla-off {
-  display: block;
-  margin: 0 auto; }
-
-.title-table {
-  text-align: left; }
-
-.border-table {
-  border: 0;
-  width: 100%; }
-
-.border-blue {
-  border: 2px solid #00A6A5;
-  padding: 0; }
-
-.tabla {
-  display: table; }
-
-.cell-tabla {
-  display: table-cell;
-  border: rgba(51, 51, 51, 0.15) 0 solid;
-  border-width: 20px 20px 20px 0;
-  vertical-align: top; }
+.img-4 {
+  width: 25%; }
 
 /*titulos*/
 .centrar-munecos {

@@ -335,6 +335,65 @@ var indice = 1;
   }
   $('a.next-4').click(showImagenSinIndices4);
 
+
+
+  function showImagen5(evento) {
+    evento.preventDefault();
+    $('li.active-5').removeClass('active-5');
+    $($('.slider-5 li')[indice]).addClass('active-5');
+
+    indice++;
+
+    if(indice == $('.slider-5 li').length) {
+      indice = 0;
+    }
+
+  }
+
+  function showImagenSinIndices5(evento) {
+    evento.preventDefault();
+    var li = $('li.active-5');
+    li.removeClass('active-5');
+
+    if(li.next().length != 0) { // SI HAY UN SIGUIENTE
+      li.next().addClass('active-5');
+    } else {  // SI NO
+      $('.slider-5 li').first().addClass('active-5');
+    }
+
+  }
+  $('a.next-5').click(showImagenSinIndices5);
+
+
+  function showImagen6(evento) {
+    evento.preventDefault();
+    $('li.active-6').removeClass('active-6');
+    $($('.slider-6 li')[indice]).addClass('active-6');
+
+    indice++;
+
+    if(indice == $('.slider-6 li').length) {
+      indice = 0;
+    }
+
+  }
+
+  function showImagenSinIndices6(evento) {
+    evento.preventDefault();
+    var li = $('li.active-6');
+    li.removeClass('active-6');
+
+    if(li.next().length != 0) { // SI HAY UN SIGUIENTE
+      li.next().addClass('active-6');
+    } else {  // SI NO
+      $('.slider-6 li').first().addClass('active-6');
+    }
+
+  }
+  $('a.next-6').click(showImagenSinIndices6);
+
+
+
 /*tablas*/
 $('td .icono-tabla-off').click(function() {
     $(this).hide();
@@ -474,3 +533,21 @@ $( "li.decima-barra" ).click(function(e){
 });
 })
 
+/*scroll*/
+jQuery(document).ready(function() {
+    var offset = 900;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+        } else {
+            jQuery('.back-to-top').fadeOut(duration);
+        }
+    });
+
+    jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});

@@ -912,10 +912,26 @@ contenedores anuncios
   position: relative;
   overflow: hidden; }
 
+.slider-5 {
+  margin: 0;
+  width: 400px;
+  height: 680px;
+  position: relative;
+  overflow: hidden; }
+
+.slider-6 {
+  margin: 0;
+  width: 256px;
+  height: 610px;
+  position: relative;
+  overflow: hidden; }
+
 .slider-1 li,
 .slider-2 li,
 .slider-3 li,
-.slider-4 li {
+.slider-4 li,
+.slider-5 li,
+.slider-6 li {
   display: none;
   position: absolute;
   top: 0;
@@ -924,13 +940,17 @@ contenedores anuncios
 .slider-1 li.active,
 .slider-2 li.active-2,
 .slider-3 li.active-3,
-.slider-4 li.active-4 {
+.slider-4 li.active-4,
+.slider-5 li.active-5,
+.slider-6 li.active-6 {
   display: block; }
 
 .next,
 .next-2,
 .next-3,
-.next-4 {
+.next-4,
+.next-5,
+.next-6 {
   background-color: #F15C22;
   width: 30px;
   height: 40px;

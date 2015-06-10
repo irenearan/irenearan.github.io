@@ -176,19 +176,6 @@ ul {
 .no-margin {
   margin: 0; }
 
-.padding-top {
-  padding-top: 50px; }
-
-.padding-bottom {
-  padding-bottom: 10px; }
-
-.linia {
-  border: 0;
-  border-top: 1px solid #999; }
-
-.in-line {
-  display: inline-block; }
-
 .opacity-hover:hover {
   opacity: .6;
   cursor: pointer; }
@@ -197,7 +184,8 @@ ul {
   cursor: pointer; }
 
 .margin-auto {
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 50%; }
 
 hr {
   border: 0;
